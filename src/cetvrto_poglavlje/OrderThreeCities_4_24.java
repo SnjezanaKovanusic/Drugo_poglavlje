@@ -36,13 +36,13 @@ public class OrderThreeCities_4_24 {
         }
         System.out.println("The three cities in alphabetical order are: " +
                 firstCity + " " + secondCity + " " + thirdCity);
-
+/*
         ArrayList<String> cities = new ArrayList<>();
         cities.add(firstCity);
         cities.add(secondCity);
         cities.add(thirdCity);
 
         Collections.sort(cities);
-        System.out.println("The cities in alphabetic order are: " + cities);
+        System.out.println("The cities in alphabetic order are: " + cities);*/
     }
 }
