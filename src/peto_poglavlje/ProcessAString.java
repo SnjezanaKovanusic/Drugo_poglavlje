@@ -9,6 +9,7 @@ public class ProcessAString {
         for (int i = 0; i < string.length(); i++) {
             if (i % 2 == 0) {
                 stringAtAddPosition += string.charAt(i);
+
             }
         }
         System.out.println(stringAtAddPosition);
