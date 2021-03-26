@@ -13,15 +13,15 @@ Write a test program that prompts the user to enter a number and its width and
 displays a string returned by invoking format(number, width).*/
     public static void main(String[] args) {
         int number = 34;
-        int width = 6;
+        int width = 4;
         String noviBroj = format(number, width);
         System.out.println(noviBroj);
-
     }
+
     private static String format(int number, int width) {
         String newString = number + " ";
-        if (newString.length() < width) {
-            for (int i = width - newString.length(); i >= 0; i--) {
+        if (newString.length() <= width) {
+            for (int i = newString.length(); i <= width; i++) {
                 newString = 0 + newString;
             }
         }
